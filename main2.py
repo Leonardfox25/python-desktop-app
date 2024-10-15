@@ -128,7 +128,7 @@ def register_user():
         if cur:
             cur.close()
         if conn:
-            conn.close()    
+            conn.close()
 
         # Clearing the form after successful registration
         username_entry.delete(0, END)
